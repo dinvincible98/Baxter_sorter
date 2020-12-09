@@ -147,3 +147,13 @@ To run the testfile when running catkin_make, run `catkin_make run_tests` from t
 2. **Add the ability to detect more types of items** - Now, we can only detect cans and bottles. In the future, we want to be able to detect and recycle a variety of objects, such as paper or different types of plastic. To do so, we need to improve our computer vision node (to detect those items), and improve our gripper.
 3. **Implement the 3D-Printed Grippers** - We did not end up having time to implement the 3D-Printed Grippers for our testing. Using the stock grippers did not provide a very secure grip - so we had to slow down the robot's motion to prevent the bottle from flying out. Using the 3D Printed Grippers with foam padding would allow for a more secure grip, which would let us speed the robot back up. It would also allow grabbing a greater variety of cylindrical objects (from the body) due to the foam's conformability.
 4. **Use the Baxter's hand camera to improve gripping accuracy** - We are currently relying solely on the realsense camera to determine the the object location and grasping positions. However, a more robust solution would be to use the baxter camera and ensure that a) an object is being grasped and b) the object being being grasped is actually in the center of the grippers. With the hand camera video, we would be able to adjust and center the center the gripper to ensure there are no object-gripper collisions.
+
+## Team Contribution
+
+- Jake Ketchum: Aligned the Realsense Camera to Baxter frame and wrote code for classifying object  (Computer vision)
+- Kailey Smith: Integrated the camera and manipulation node. Modified code and did test at Lab. 
+- Yael Ben Shalom: Calculated an approximate offset for the realsense camera and wrote code for classfiying objects and rosunit test. 
+- Mingqing Yuan: Laid out the preliminary code for the manipulation of the baxter and doing initial movement testing
+- Chris Aretakis: Laid out pseudo code for motion and designed a gripper for Baxter.
+
+- Documentation credits to everyone!
