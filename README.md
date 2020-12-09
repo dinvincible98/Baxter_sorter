@@ -153,7 +153,7 @@ To run the testfile when running catkin_make, run `catkin_make run_tests` from t
 - Jake Ketchum: Aligned the Realsense Camera to Baxter frame and wrote code for classifying object  (Computer vision)
 - Kailey Smith: Integrated the camera and manipulation node. Modified code and did test at Lab. 
 - Yael Ben Shalom: Calculated an approximate offset for the realsense camera and wrote code for classfiying objects and rosunit test. 
-- Mingqing Yuan: Laid out the preliminary code for the manipulation of the baxter and doing initial movement testing
+- Mingqing Yuan: Laid out the preliminary code for the manipulation of the baxter and did initial movement testing
 - Chris Aretakis: Laid out pseudo code for motion and designed a gripper for Baxter.
 
 - Documentation credits to everyone!
